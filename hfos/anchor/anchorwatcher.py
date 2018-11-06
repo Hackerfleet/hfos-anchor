@@ -34,12 +34,12 @@ from time import time
 from circuits import Event
 from vincenty import vincenty
 
-from hfos.component import ConfigurableComponent, handler
-from hfos.database import objectmodels
-from hfos.logger import hfoslog, verbose, debug, warn, critical, error, hilight
-from hfos.alert.manager import backend_trigger, backend_cancel, backend_notify
-from hfos.debugger import cli_register_event
-from hfos.nodestate.manager import backend_nodestate_toggle
+from isomer.component import ConfigurableComponent, handler
+from isomer.database import objectmodels
+from isomer.logger import isolog, verbose, debug, warn, critical, error, hilight
+from isomer.alert.manager import backend_trigger, backend_cancel, backend_notify
+from isomer.debugger import cli_register_event
+from isomer.nodestate.manager import backend_nodestate_toggle
 
 # from pprint import pprint
 

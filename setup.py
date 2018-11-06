@@ -46,7 +46,7 @@ This software package is a plugin module for HFOS.
           'hfos-nodestate>=0.0.1',
           'vincenty>=0.1.4'
       ],
-      entry_points="""[hfos.components]
+      entry_points="""[isomer.components]
     anchorwatcher=hfos.anchor.anchorwatcher:AnchorWatcher
     """,
       test_suite="tests.main.main",

@@ -41,7 +41,7 @@ This software package is a plugin module for HFOS.
 """,
       dependency_links=[],
       install_requires=[
-          'hfos>=1.2.0',
+          'isomer>=1.0.0',
           'hfos-nmea>=0.0.1',
           'hfos-nodestate>=0.0.1',
           'vincenty>=0.1.4'
